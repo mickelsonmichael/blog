@@ -1,3 +1,16 @@
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 plugins: [jekyll-include-cache]
-title: Food.concat(Network)
+title: string.Join("Food", "Network")
+subtitle: "by Michael Mickelson"
+name: "Michael Mickelson"
+url: "https://michaelmickelson.com"
+base_url: "blog/"
+breadcrumbs: true
+search: true
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true  
