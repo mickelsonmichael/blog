@@ -1,16 +1,51 @@
+# template eavailable at https://github.com/mmistakes/mm-github-pages-starter/blob/dfed5db462e438daac700832237b907834906e7d/_config.yml
+
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 plugins: [jekyll-include-cache]
+base_url: "blog/"
+breadcrumbs: true
+search: true
+markdown: kramdown
+
 title: string.Join("Food", "Network")
 subtitle: "by Michael Mickelson"
 name: "Michael Mickelson"
 url: "https://michaelmickelson.com"
-base_url: "blog/"
-breadcrumbs: true
-search: true
+github_username: mickelsonmichael
+description: |
+  The official Blog of Michael Mickelson, software engineer and game lover.
+
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       show_date: true
       read_time: true  
+
+author:
+  name: Michael Mickelson
+  bio: A Denver-based web developer looking to document his experiences in gaming, development, and cooking.
+  links:
+    - label: Website
+      icon: fa fa-fw fa-link
+      url: https://michaelmickelson.com
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/mickelsonmichael
+    - label: LinkedIn
+      url: https://linkedin.com/in/mickelsonmichael
+      icon: fab fa-fw fa-linkedin
+
+footer:
+  links:
+    - label: Website
+      icon: fa fa-fw fa-link
+      url: https://michaelmickelson.com
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/mickelsonmichael
+    - label: LinkedIn
+      url: https://linkedin.com/in/mickelsonmichael
+      icon: fab fa-fw fa-linkedin
